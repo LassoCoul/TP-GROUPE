@@ -7,7 +7,7 @@
 #logo {
     display: flex;
     justify-content: space-between;
-    background-color: bisque;
+    /* background-color: bisque; */
     margin-left: 40px;
 }
 
@@ -20,7 +20,13 @@ nav {
     justify-content: space-between;
     align-items: center;
     height: 50px;
-    background-color: blue;
+    background-color: white;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
 }
 
 #navigation a {
@@ -31,7 +37,7 @@ nav {
 
 #navigation {
     display: flex;
-    background-color: bisque;
+    /* background-color: bisque; */
     width: 50%;
     justify-content: space-between;
     margin-right: 300px;
@@ -47,7 +53,19 @@ nav {
 #reserver > a {
     display: inline-block;
     text-decoration: none;
-    color:aliceblue;
-    /* padding: 15px 20px; */
-    
+    color:aliceblue;  
+    padding: 25px;
+}
+
+#reserver img{
+    background-color: white;
+    height: 100%;
+    padding: 15px;
+}
+
+#section1 {
+    background-image: url('img-section-1.jpg');
+    background-size: cover;
+    height: 100vh;
+    margin-top: 50px;
 }
