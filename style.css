@@ -42,12 +42,17 @@ nav {
     height: 100%;
     align-items: center;
     background-color: black;
+    padding-left: 10px;
+    
 }
 
 #reserver > a {
     display: inline-block;
     text-decoration: none;
     color:aliceblue;
-    /* padding: 15px 20px; */
-    
+}
+
+#reserver > img {
+
+
 }
